@@ -1,1 +1,1 @@
-/Users/Hanekawa/.fzf/shell/key-bindings.fish
+/home/senjougahara/.fzf/shell/key-bindings.fish
