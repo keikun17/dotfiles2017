@@ -1,9 +1,18 @@
-## Step 1. link files
+## Step 1 : Install fish shell
+
+  Install fish shell
+  - ln -s ~/.tmux.conf ~/Projects/dotfiles2017/tmux.conf
+
+  Install bass for wrapping bash scripts to work with fish
+  https://github.com/edc/bass
+
+## Step 2. link files
 
   ln -s ~/Projects/dotfiles2017/config ~/.config
   ln -s ~/Projects/dotfiles2017/tmux/tmux.conf ~/.tmux.conf ~
 
-# Step 2. Install Requirements
+# Step 3. Install Requirements
+
 
 ## Ruby version managers: chruby and chruby-fish
 
@@ -16,9 +25,15 @@
 
   https://github.com/postmodern/ruby-install#readme
 
-## Shell (fish)
+## Ruby : Install at least one version of ruby
 
-  https://github.com/edc/bass
+  `ruby-install ruby-2.4.0`
+
+   restart shell after installing a ruby version
+
+## bundler
+
+   `gem install bundler`
 
 ## Editor :  nvim
 
@@ -35,6 +50,9 @@
 ## Tmux-vim navigator
 
   Vim Tmux navigator : https://github.com/christoomey/vim-tmux-navigator
+
+
+## Install git
 
 ## Install hub
 
