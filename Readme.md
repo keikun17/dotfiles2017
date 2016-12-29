@@ -9,7 +9,7 @@
 ## Step 2. link files
 
   ln -s ~/Projects/dotfiles2017/config ~/.config
-  ln -s ~/Projects/dotfiles2017/tmux/tmux.conf ~/.tmux.conf ~
+  ln -s ~/Projects/dotfiles2017/config/tmux/tmux.conf ~/.tmux.conf ~
 
 # Step 3. Install Requirements
 
@@ -63,3 +63,4 @@
 
 [] tmux-vim common pasteboard
 [] windows-tmux-vim pasteboard
+[] vim tmux easynavigate ctrl-hjkl
