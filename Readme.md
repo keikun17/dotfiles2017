@@ -58,3 +58,8 @@
 
   https://github.com/github
 
+
+# TODO
+
+[] tmux-vim common pasteboard
+[] windows-tmux-vim pasteboard
