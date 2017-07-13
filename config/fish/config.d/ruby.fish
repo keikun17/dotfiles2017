@@ -5,4 +5,4 @@ source /usr/local/share/chruby/chruby.fish
 source /usr/local/share/chruby/auto.fish
 
 # Default ruby
-chruby ruby-2.4.0
+chruby ruby-2.4.1
