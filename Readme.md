@@ -6,61 +6,21 @@
   Install bass for wrapping bash scripts to work with fish
   https://github.com/edc/bass
 
-## Step 2. link files
-
-  ln -s ~/Projects/dotfiles2017/config ~/.config
-  ln -s ~/Projects/dotfiles2017/config/tmux/tmux.conf ~/.tmux.conf ~
-
-# Step 3. Install Requirements
 
 
-## Ruby version managers: chruby and chruby-fish
+TODO:
 
-  # chruby will only work after installing chruby-fish
+[ ]  chruby's `ruby-install` - https://github.com/postmodern/ruby-install#readme
 
-  https://github.com/postmodern/chruby
-  https://github.com/JeanMertz/chruby-fish
+[ ] ## Ruby : Install at least one version of ruby with `ruby-install ruby-2.4.0`
 
-## Ruby Installer : ruby-install
+[ ] `gem install bundler`
 
-  https://github.com/postmodern/ruby-install#readme
+[ ] tmux vim pasteboard share
 
-## Ruby : Install at least one version of ruby
+[ ] !!! tmux-vim-windows-host pasteboard share
 
-  `ruby-install ruby-2.4.0`
-
-   restart shell after installing a ruby version
-
-## bundler
-
-   `gem install bundler`
-
-## Editor :  nvim
-
-  https://github.com/neovim/neovim/wiki/Installing-Neovim
-
-## fzf (for vim and shell)
-
-  https://github.com/junegunn/fzf
-
-## tmux-osx pasteboard (if using OSX)
-
-  Tmux-MacOSX-pasteboard / reattach-to-user-namespace : https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard
-
-## Tmux-vim navigator
-
-  Vim Tmux navigator : https://github.com/christoomey/vim-tmux-navigator
+[ ] !!! tmux-vim navigator (make sure that ctrl-hjkl works when moving around tmux and vim)
 
 
-## Install git
-
-## Install hub
-
-  https://github.com/github
-
-
-# TODO
-
-[] tmux-vim common pasteboard
-[] windows-tmux-vim pasteboard
-[] vim tmux easynavigate ctrl-hjkl
+reference : Vim Tmux navigator : https://github.com/christoomey/vim-tmux-navigator
