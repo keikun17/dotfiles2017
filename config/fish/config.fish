@@ -7,6 +7,7 @@ export TERM=xterm-256color
 # Load my Aliases
 source ~/.config/fish/aliases.fish
 
+source ~/config/fish/config.d/paths.fish
 for filename in $HOME/.config/fish/config.d/*.fish
   source $filename
 end
