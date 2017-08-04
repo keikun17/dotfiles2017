@@ -52,7 +52,7 @@ let g:tmux_navigator_no_mappings = 1
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
-nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
+nnoremap <silent> <C-h> :TmuxNavigatePrevious<cr>
 
 "Workaround for problem where <c-h> sends <bs>
 nmap <BS>               :TmuxNavigateLeft<cr>
