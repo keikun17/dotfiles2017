@@ -34,10 +34,20 @@ source config/fish/config.d/paths.fish
 echo "installing gcc"
 brew install gcc
 
-echo "installing chruby"
+echo "installing Neovim"
+apt install python3-pip
+pip3 install --upgrade pip
+pip3 install setuptools --user
+pip3 install neovim --user
+
+brew install neovim
+
+echo "installing chruby,chruby-fish, ruby-install"
 
 brew install chruby
 brew install chruby-fish
+brew install ruby-install
+
 
 echo "installing hub"
 
