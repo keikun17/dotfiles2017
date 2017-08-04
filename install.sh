@@ -19,13 +19,6 @@ ln -s $dir/config/tmux/tmux.conf ~/.tmux.conf
 echo "created softlinks from $dir/config/tmux to ~/.config/tmux"
 
 
-echo "installing Neovim"
-apt install python3-pip
-pip install --upgrade pip
-pip3 install setuptools --user
-pip3 install neovim --user
-
-brew install neovim
 
 echo "installing git"
 apt install git
@@ -33,7 +26,10 @@ apt install git
 echo "installing linux brew"
 
 apt install build-essential
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
+set ruby_install_script (curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)
+ruby -e "$ruby_install_script"
+
+source config/fish/config.d/paths.fish 
 
 echo "installing gcc"
 brew install gcc
