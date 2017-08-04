@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/usr/bin/fish
 
-dir=$(pwd)
+set dir (pwd)
 
 
+mv ~/.config/fish ~/.config/fish.old
 ln -s $dir/config/fish ~/.config/fish
 echo "created softlinks from $dir/config/fish to ~/.config/fish"
 ln -s $dir/config/git ~/.config/git
