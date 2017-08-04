@@ -14,6 +14,7 @@ echo "created softlinks from $dir/config/nvim to ~/.config/nvim"
 ln -s $dir/config/omf ~/.config/omf
 echo "created softlinks from $dir/config/omf to ~/.config/omf"
 ln -s $dir/config/tmux ~/.config/tmux
+ln -s $dir/config/tmux/tmux.conf ~/.tmux.conf
 echo "created softlinks from $dir/config/tmux to ~/.config/tmux"
 
 
@@ -23,10 +24,7 @@ pip install --upgrade pip
 pip3 install setuptools --user
 pip3 install neovim --user
 
-sudo add-apt-repository ppa:neovim-ppa/stable
-sudo apt-get update
-
-apt install neovim
+brew install neovim
 
 echo "installing git"
 apt install git
@@ -56,4 +54,4 @@ echo "installing silver searcher (ag)"
 brew install the_silver_searcher
 
 echo "installing tmux"
-apt install tmux
+brew install tmux
