@@ -62,3 +62,6 @@ brew install the_silver_searcher
 
 echo "installing tmux"
 brew install tmux
+
+echo "installing xclip"
+brew install xclip

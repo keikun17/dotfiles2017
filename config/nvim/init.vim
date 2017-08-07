@@ -26,6 +26,7 @@ set smartcase
 
 syntax on             " Turn on syntax highlighting
 set clipboard=unnamed " clipboard sharing
+set clipboard+=unnamedplus " clipboard sharing with virtualbox host system
 
 set tabstop=2         " ... tabs are 2 spaces
 set shiftwidth=2      " ... indenting with '<' and '>' 2 spaces
