@@ -21,11 +21,15 @@ echo "created softlinks from $dir/config/tmux to ~/.config/tmux"
 
 
 echo "installing git"
-apt install git
+sudo apt install git
+
+echo "installing omf"
+curl -L https://get.oh-my.fish | fish
 
 echo "installing linux brew"
-
+omf install linuxbrew
 apt install build-essential
+
 set ruby_install_script (curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)
 ruby -e "$ruby_install_script"
 

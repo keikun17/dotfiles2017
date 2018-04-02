@@ -1,5 +1,5 @@
 call plug#begin('~/.config/nvim/plugged')
-
+"
   "==============================
   " Navigation
   "==============================
@@ -12,7 +12,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   Plug 'airblade/vim-gitgutter'
   Plug 'tpope/vim-fugitive'
-
+  
   "==============================
   " Code
   "==============================
@@ -22,7 +22,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'Townk/vim-autoclose'
   Plug 'ntpeters/vim-better-whitespace'
   Plug 'mattn/emmet-vim'
-
+  
   "==============================
   " Ruby / Rails
   "==============================
