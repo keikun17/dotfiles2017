@@ -17,6 +17,8 @@ echo "created softlinks from $dir/config/omf to ~/.config/omf"
 ln -s $dir/config/tmux ~/.config/tmux
 ln -s $dir/config/tmux/tmux.conf ~/.tmux.conf
 echo "created softlinks from $dir/config/tmux to ~/.config/tmux"
+echo "created softlinks from $dir/config/ctags/ctags to ~/.ctags"
+ln -s $dir/config/ctags/ctags ~/.ctags
 
 
 
